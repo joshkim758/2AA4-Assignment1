@@ -128,7 +128,7 @@ public class Board {
 				if (!node(neighborId).empty()) return false;
 			}
 		}
-
+		//check phase setup
 		if (phase == Phase.SETUP) return true;
 
 		//this is the main phase, must connect to road
