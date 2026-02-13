@@ -100,6 +100,7 @@ public class Board {
 	public int[] nodesAroundTile(int tileId) { return tileNodes[tileId]; }
 
 	//legality logic, can they place a road?
+	//implementing build legality checks
 	public boolean canPlaceRoad(int playerId, int edgeId) {
 		Edge e = edge(edgeId);
 		if (!e.empty()) return false;
