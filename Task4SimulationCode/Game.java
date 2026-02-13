@@ -95,7 +95,7 @@ public class Game {
 			if (i >= 4) grantInitialResourcesFromNode(pid, nodeId);
 		}
 	}
-
+	//resource production method
 	//distribute resources to players for a given dice roll depending on the players current settlement/city positions
 	private void distributeResources(int roll) {
 		for (Tile t : board.getTiles()) {
