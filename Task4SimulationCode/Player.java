@@ -51,6 +51,7 @@ public class Player {
 	public void takeTurn(Game game) {
 
 		//logic for attempting to build if the amount of cards exceeds 7
+		//completed > 7 logic*****
 		boolean mustBuild = totalCards() > 7;
 		//we also implement a 30% random chance that they do nothing in the case they have under 7 cards (to introduce more noise in the samples)
 		if (!mustBuild && rand.nextDouble() < 0.30) {
