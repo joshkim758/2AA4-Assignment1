@@ -94,19 +94,19 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d4givEfG_rqa4OBbQJg" name="hand" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d4wivEfG_rqa4OBbQJg" name="roadsLeft">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d4wivEfG_rqa4OBbQJg" name="roadsLeft" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Tf8d5AivEfG_rqa4OBbQJg" name="LiteralInteger1" value="15"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d5QivEfG_rqa4OBbQJg" name="settlementsLeft">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d5QivEfG_rqa4OBbQJg" name="settlementsLeft" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Tf8d5givEfG_rqa4OBbQJg" name="LiteralInteger1" value="5"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d5wivEfG_rqa4OBbQJg" name="citiesLeft">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d5wivEfG_rqa4OBbQJg" name="citiesLeft" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
         <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Tf8d6AivEfG_rqa4OBbQJg" name="LiteralInteger1" value="4"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d6QivEfG_rqa4OBbQJg" name="victoryPoints">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tf8d6QivEfG_rqa4OBbQJg" name="victoryPoints" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Tf8d6givEfG_rqa4OBbQJg" name="id">
@@ -213,10 +213,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_TgKgUgivEfG_rqa4OBbQJg" name="endpoint1" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgKgUwivEfG_rqa4OBbQJg" name="endpoint2">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgKgUwivEfG_rqa4OBbQJg" name="endpoint2" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLHYAivEfG_rqa4OBbQJg" name="roadOwner">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLHYAivEfG_rqa4OBbQJg" name="roadOwner" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TgLHYQivEfG_rqa4OBbQJg" name="Edge">
@@ -237,13 +237,13 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TgLucAivEfG_rqa4OBbQJg" name="Node">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucQivEfG_rqa4OBbQJg" name="id">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucQivEfG_rqa4OBbQJg" name="id" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucgivEfG_rqa4OBbQJg" name="owner">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucgivEfG_rqa4OBbQJg" name="owner" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucwivEfG_rqa4OBbQJg" name="building" type="_TgMVgAivEfG_rqa4OBbQJg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgLucwivEfG_rqa4OBbQJg" name="building" visibility="private" type="_TgMVgAivEfG_rqa4OBbQJg"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TgLudAivEfG_rqa4OBbQJg" name="Node">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_TgLudQivEfG_rqa4OBbQJg" name="id">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
@@ -266,19 +266,19 @@
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_TgMVggivEfG_rqa4OBbQJg" name="CITY"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TgMVgwivEfG_rqa4OBbQJg" name="Board">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVhAivEfG_rqa4OBbQJg" name="tiles" type="_TgJSMAivEfG_rqa4OBbQJg">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVhAivEfG_rqa4OBbQJg" name="tiles" visibility="private" type="_TgJSMAivEfG_rqa4OBbQJg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgMVhQivEfG_rqa4OBbQJg" name="LiteralInteger1" value="19"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgMVhgivEfG_rqa4OBbQJg" name="LiteralUnlimitedNatural1" value="19"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVhwivEfG_rqa4OBbQJg" name="nodes" type="_TgLucAivEfG_rqa4OBbQJg">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVhwivEfG_rqa4OBbQJg" name="nodes" visibility="private" type="_TgLucAivEfG_rqa4OBbQJg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgMViAivEfG_rqa4OBbQJg" name="LiteralInteger1" value="54"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgMViQivEfG_rqa4OBbQJg" name="LiteralUnlimitedNatural1" value="54"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVigivEfG_rqa4OBbQJg" name="edges" type="_TgKgUAivEfG_rqa4OBbQJg">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVigivEfG_rqa4OBbQJg" name="edges" visibility="private" type="_TgKgUAivEfG_rqa4OBbQJg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgMViwivEfG_rqa4OBbQJg" name="LiteralInteger1" value="72"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgMVjAivEfG_rqa4OBbQJg" name="LiteralUnlimitedNatural1" value="72"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVjQivEfG_rqa4OBbQJg" name="tileNodes">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgMVjQivEfG_rqa4OBbQJg" name="tileNodes" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgMVjgivEfG_rqa4OBbQJg" name="LiteralInteger1" value="19"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgMVjwivEfG_rqa4OBbQJg" name="LiteralUnlimitedNatural1" value="19"/>
@@ -413,10 +413,10 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_TgQm9AivEfG_rqa4OBbQJg" name="board" type="_TgMVgwivEfG_rqa4OBbQJg" aggregation="composite" association="_TgQm8AivEfG_rqa4OBbQJg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TgROAAivEfG_rqa4OBbQJg" name="TurnManager">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgROAQivEfG_rqa4OBbQJg" name="current">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgROAQivEfG_rqa4OBbQJg" name="current" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgROAgivEfG_rqa4OBbQJg" name="phase" type="_TgHdAAivEfG_rqa4OBbQJg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgROAgivEfG_rqa4OBbQJg" name="phase" visibility="private" type="_TgHdAAivEfG_rqa4OBbQJg"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TgROAwivEfG_rqa4OBbQJg" name="currentPlayerIndex">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_TgROBAivEfG_rqa4OBbQJg" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
@@ -443,7 +443,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_TgScJAivEfG_rqa4OBbQJg" name="turnmanager" type="_TgROAAivEfG_rqa4OBbQJg" aggregation="composite" association="_TgScIAivEfG_rqa4OBbQJg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TgTDMAivEfG_rqa4OBbQJg" name="Bank">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgTDMQivEfG_rqa4OBbQJg" name="counts">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgTDMQivEfG_rqa4OBbQJg" name="counts" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_TgTDMgivEfG_rqa4OBbQJg" name="Bank"/>
@@ -539,8 +539,8 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_TgbmFAivEfG_rqa4OBbQJg" name="board" type="_TgMVgwivEfG_rqa4OBbQJg" association="_TgbmEAivEfG_rqa4OBbQJg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TgcNIAivEfG_rqa4OBbQJg" name="DicePair">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgcNIQivEfG_rqa4OBbQJg" name="die1" type="_TgaX8AivEfG_rqa4OBbQJg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgcNIgivEfG_rqa4OBbQJg" name="die2" type="_TgaX8AivEfG_rqa4OBbQJg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgcNIQivEfG_rqa4OBbQJg" name="die1" visibility="private" type="_TgaX8AivEfG_rqa4OBbQJg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TgcNIgivEfG_rqa4OBbQJg" name="die2" visibility="private" type="_TgaX8AivEfG_rqa4OBbQJg"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TgcNIwivEfG_rqa4OBbQJg" client="_TgcNIAivEfG_rqa4OBbQJg" supplier="_TgZw4AivEfG_rqa4OBbQJg" contract="_TgZw4AivEfG_rqa4OBbQJg">
         <name xsi:nil="true"/>
       </interfaceRealization>
