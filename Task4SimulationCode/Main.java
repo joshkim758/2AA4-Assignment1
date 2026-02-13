@@ -1,5 +1,6 @@
 package Assignment1PAPYRUS;
 
+//this is the demonstrator main
 public class Main {
     public static void main(String[] args) {
         //congiruing the max turns
