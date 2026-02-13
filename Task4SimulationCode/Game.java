@@ -52,6 +52,7 @@ public class Game {
 			p.takeTurn(this);
 
 			//then check win
+			//termination logic
 			if (p.vp() >= 10) {
 				System.out.println("Player " + p.id() + " WINS with " + p.vp() + " VP!");
 				return;
