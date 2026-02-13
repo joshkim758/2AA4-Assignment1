@@ -8,9 +8,11 @@ package Assignment1PAPYRUS;
 /**
  * 
  */
+//completed class
 public class TurnManager {
 	private int current = 0;
 	private Phase phase = Phase.SETUP;
+
 
 	public int currentPlayerIndex() {
 		return current;
